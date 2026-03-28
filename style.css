@@ -21,7 +21,6 @@
     text-align: center;
     font-size: 2.25vw;
     text-shadow:2px 2px #994e7a;
-    margin-top: -2vw; 
 }
 .Info {
     margin-top: -3vw;
@@ -49,8 +48,9 @@ body {
     margin: 0;
     overflow: hidden;
     background-image: url('background.jpg');
-    background-size: 100vw 100vh;
-    backdrop-filter: blur(12.5px);
+    background-size: 100vw 100%;
+    overflow-y: scroll;
+    background-repeat: no-repeat;
 }
 .particle-container {
     position: fixed;
